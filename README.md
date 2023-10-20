@@ -1,4 +1,4 @@
-![image](https://github.com/gauthking/actodo-api-service/assets/90638995/686109b9-4bb6-4101-8922-96b82231aa8d)# Project Title
+# Project Title
 
 This is a full stack mobile application - Todo List - Android Club FFCS Final Project. 
 
@@ -107,6 +107,6 @@ Deployed Link - https://todo-api-7cnt.onrender.com
 
 ### Create Todo Page
 
-![image](https://github.com/gauthking/actodo-api-service/assets/90638995/95428dd2-6762-4197-821d-0b043ed9edcd)
+![image](https://github.com/gauthking/actodo-api-service/assets/90638995/686109b9-4bb6-4101-8922-96b82231aa8d)
 
 
