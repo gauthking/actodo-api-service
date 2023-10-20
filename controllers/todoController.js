@@ -27,9 +27,31 @@ export const postTodo = async (req, res) => {
 }
 
 export const putTodo = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const { todoName, todoDescription } = req.body;
 
+        const updatedTodo = await Todo.findByIdAndUpdate(
+            id,
+            { todoName: todoName, todoDescription: todoDescription },
+            { new: true }
+        );
+
+        res.status(200).json(updatedTodo);
+    } catch (error) {
+        console.log(error);
+        res.status(500).send('Internal Server Error during updating todo');
+    }
 }
 
 export const delTodo = async (req, res) => {
+    try {
+        const { id } = req.params;
+        await Todo.findByIdAndDelete(id);
 
+        res.status(200).send('Todo deleted successfully');
+    } catch (error) {
+        console.log(error);
+        res.status(500).send('Internal Server Error during deleting todo');
+    }
 }
