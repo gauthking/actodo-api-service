@@ -5,7 +5,7 @@ import todoRoutes from "./routes/todoRoutes.js";
 // init express app
 
 const app = express();
-const port = 5172;
+const PORT = process.env.PORT || 3000;
 const connection_url = "mongodb+srv://appskans2017:XupC5OZiWY9tBvBC@cluster0.mnetf21.mongodb.net/newtododb?retryWrites=true&w=majority"
 
 app.use(express.json());
@@ -19,6 +19,6 @@ mongoose.connect(connection_url, {
 app.use('/api/todos', todoRoutes);
 
 // listen to the current port
-app.listen(port, () => {
-    console.log(`Server started. Listening to port - ${port}`);
+app.listen(PORT, () => {
+    console.log(`Server started. Listening to port - ${PORT}`);
 });
