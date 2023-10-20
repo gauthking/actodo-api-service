@@ -1,4 +1,4 @@
-# Project Title
+# Todo List APP
 
 This is a full stack mobile application - Todo List - Android Club FFCS Final Project. 
 
