@@ -99,7 +99,7 @@ Deployed Link - https://todo-api-7cnt.onrender.com
 
 ### Update Todo Screen
 
-![image](https://github.com/gauthking/actodo-api-service/assets/90638995/cb9cbe1e-af74-4965-ad65-401101726eff)
+![image](https://github.com/gauthking/actodo-api-service/assets/90638995/69e4427e-6278-49a6-9c66-8cab9e8ebd76)
 
 ### View Todo Page
 
@@ -107,6 +107,6 @@ Deployed Link - https://todo-api-7cnt.onrender.com
 
 ### Create Todo Page
 
-![image](https://github.com/gauthking/actodo-api-service/assets/90638995/686109b9-4bb6-4101-8922-96b82231aa8d)
+![image](https://github.com/gauthking/actodo-api-service/assets/90638995/f2988709-1f03-4e3e-85f9-33092b0f1a88)
 
 
